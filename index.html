@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neumorphism Login Form.</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <img src="img/my-profile-img.png" alt="">
+        <div class="text">Emmily Williams</div>
+        <form name="loginForm" onsubmit="return validateForm()" method="post" action="">
+            <div class="field">
+                <span class="fa fa-user"></span>
+                <input type="text" placeholder="Enter Your Email" required/>
+            </div>
+
+            <div class="field">
+                <span class="fa fa-lock"></span>
+                <input type="password" placeholder="Enter Your Password" required/>
+            </div>
+
+            <!--Login Button-->
+
+            <button>Login</button>
+            <div class="or">Or</div>
+            <div class="icon-button">
+                <span class="facebook"><i class="fa fa-facebook"></i> Facebook</span>
+                <span class="twitter"><i class="fa fa-twitter"></i> Twitter</span>
+            </div>
+        </form>
+
+        <script src="js/Neumorphism.js"></script>
+    </div>
+</body>
